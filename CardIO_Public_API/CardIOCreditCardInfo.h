@@ -21,7 +21,9 @@ typedef NS_ENUM(NSInteger, CardIOCreditCardType) {
   /// MasterCard
   CardIOCreditCardTypeMastercard = '5',
   /// Discover Card
-  CardIOCreditCardTypeDiscover = '6'
+  CardIOCreditCardTypeDiscover = '6',
+  //Manulife Card
+  CardIOCreditCardTypeManulife = '7'
 };
 
 

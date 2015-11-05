@@ -69,6 +69,11 @@
         [numbersWithSpaces insertString:@" " atIndex:4];
       }
       break;
+    case CardIOCreditCardTypeManulife:
+      if (numbersWithSpaces.length > 3) {
+        [numbersWithSpaces insertString:@" " atIndex:3];
+      }
+      break;
     default:
       break;
   }

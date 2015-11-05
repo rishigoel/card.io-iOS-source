@@ -29,6 +29,9 @@
     case CardIOCreditCardTypeDiscover:
       result = CardIOLocalizedString(@"cardtype_discover", languageOrLocale); // Discover
       break;
+    case CardIOCreditCardTypeManulife:
+      result = CardIOLocalizedString(@"cardtype_manulife", languageOrLocale); // Discover
+      break;
     default:
       result = @"";
       break;

@@ -31,6 +31,8 @@
       return CardIOCreditCardTypeMastercard;
     case CardTypeDiscover:
       return CardIOCreditCardTypeDiscover;
+    case CardTypeManulife:
+      return CardIOCreditCardTypeManulife;
     default:
       return CardIOCreditCardTypeUnrecognized;
   }
@@ -69,6 +71,7 @@
     case CardIOCreditCardTypeVisa:
     case CardIOCreditCardTypeMastercard:
     case CardIOCreditCardTypeDiscover:
+    case CardIOCreditCardTypeManulife:
       cvvLength = 3;
       break;
     case CardIOCreditCardTypeUnrecognized:
